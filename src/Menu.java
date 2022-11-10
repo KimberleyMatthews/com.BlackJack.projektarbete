@@ -44,7 +44,7 @@ public class Menu {
 
 
         do {
-            if (playersMoney < 2) {
+            if (playersMoney < 1) {
                 isPlaying = false;
                 System.out.println("You are out of money " +
                                     "/n Game over");
